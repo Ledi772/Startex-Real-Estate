@@ -70,11 +70,9 @@ a:hover{
 .image-container {
     position: relative;
     display: inline-block;
-    width: 45%;
-    
-    
-    
+    width: 45%;    
 }
+
 
 .image-container img {
     width: 100%; 
@@ -93,6 +91,11 @@ a:hover{
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.5);  /* Sfond i errët pas lidhjes */
     padding: 10px;
+    transition: color 0.7s;
+}
+
+.image-container a:hover{
+    color: rgb(0, 102, 255);
 }
 
 .shigjeta{
@@ -102,11 +105,193 @@ a:hover{
 }
 
 hr{
-    width: 90%;  /* Ndryshoni për të kontrolluar gjerësinë */
+    width: 90%;  
     margin-left: auto;
     margin-right: auto;
     border: none;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.titulli{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 32px;
 
+}
+
+
+.shpija1 {
+    width: 30%; /* Çdo div merr rreth 30% të gjerësisë së container-it */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+
+.karakteristikat{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 8px;
+}
+
+.linku4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 5px;
+    padding-top: 15px;
+}
+
+.linku4 a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.7s;
+}
+
+a:hover{
+    color:rgb(0, 102, 255) ;
+}
+
+.Gjumi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; 
+    padding-top: 8px;
+    align-self: center;
+    flex-direction: column;
+    padding-top: 15px;
+} 
+
+.Banjo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; 
+    padding-top: 8px;
+    align-self: center;
+    flex-direction: column;
+    padding-top: 15px;
+} 
+
+.hapsira{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; 
+    padding-top: 8px;
+    align-self: center;
+    flex-direction: column;
+    padding-top: 15px;
+} 
+
+.indetifikohu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px; 
+    padding-top: 8px;
+    align-self: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.infot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+.opsionet {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.shiko-me-shume {
+    padding: 10px 20px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    margin-top: 70px; 
+    margin-left: 45.7%;
+    margin-bottom: 25px;
+}
+
+.shiko-me-shume:hover {
+    background-color: white; 
+    color: rgb(0, 140, 255);
+}
+
+.titulli{
+    display: flex;
+    flex-direction:row ;
+    padding-top: 50px;
+}
+
+.m{
+    width: 90%;  
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+}
+
+.shpija2 {
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+
+.opsionet1 {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.fotoEfundit{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.sllogani{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(0, 30, 199);
+}
