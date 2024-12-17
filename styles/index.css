@@ -321,6 +321,14 @@ a:hover{
     display: flex;
 }
 
+.color{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(22, 127, 255, 0.929);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
 @media (max-width: 600px) {
     .faqja {
         text-align: center;
