@@ -86,7 +86,7 @@ a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px;
+    font-size: 35px;
     text-decoration: none;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.5);  /* Sfond i errët pas lidhjes */
@@ -280,12 +280,11 @@ a:hover{
 }
 
 .fotoEfundit{
-    width: 100vw;
+    /* width: 90vw; */
     height: auto;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-right: 50px;
 }
 
 .sllogani{
@@ -295,3 +294,46 @@ a:hover{
     margin-bottom: 50px;
     color: rgb(0, 30, 199);
 }
+
+.infot_per_kompani{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lokacioni{
+    width: 100px;
+    height: auto;
+}
+
+.email{
+    width: 100px;
+    height: auto;
+}
+
+.telefonata{
+    font-size: 30px;
+}
+
+.infot_per_kompani{
+    font-size: 18px;
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .faqja {
+        text-align: center;
+    }
+    }
+    @media (max-width: 900px) {
+        .faqja{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        }
+        @media (min-width: 901px) {
+            .faqja {
+                flex-direction: row;
+            }
+            }
